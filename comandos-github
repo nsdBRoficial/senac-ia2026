@@ -1,0 +1,80 @@
+# 🚀 Guia Rápido de Git para Iniciantes
+
+Bem-vindo ao seu manual de sobrevivência do Git! Este guia foi feito para te ajudar a lembrar dos comandos mais importantes do dia a dia no desenvolvimento.
+
+---
+
+## 1. Configurando e Iniciando Projetos
+
+### `git init`
+* **O que faz:** Transforma uma pasta comum do seu computador em um repositório Git rastreável.
+* **Como usar:** `git init`
+* **Analogia:** É como colocar uma "caixa preta" e um sistema de câmeras numa sala vazia para começar a registrar tudo o que acontece ali dentro.
+
+### `git clone`
+* **O que faz:** Baixa uma cópia inteira de um repositório remoto (que está no GitHub, por exemplo) para a sua máquina.
+* **Como usar:** `git clone <url-do-repositorio>`
+* **Analogia:** É como baixar uma cópia de um projeto pronto da nuvem para o seu computador para começar a trabalhar nele.
+
+---
+
+## 2. Acompanhando o Trabalho
+
+### `git status`
+* **O que faz:** Mostra o estado atual do seu repositório. Diz quais arquivos foram modificados, quais estão prontos para salvar e em qual branch você está.
+* **Como usar:** `git status`
+* **Analogia:** É olhar nopainel do carro para ver se o freio de mão está puxado, qual marcha está engatada e se há luzes de alerta acesas.
+
+---
+
+## 3. Salvando o Progresso Localmente
+
+### `git add .`
+* **O que faz:** Prepara (adiciona) todos os arquivos modificados para entrarem no próximo salvamento (commit).
+* **Como usar:** `git add .`
+* **Analogia:** É colocar os papéis que você alterou dentro da pasta da mesa, organizando-os antes de levá-los para o arquivo morto.
+
+### `git commit -m "mensagem"`
+* **O que faz:** Salva oficialmente as alterações preparadas no histórico do Git, acompanhadas de uma mensagem explicando o que foi feito.
+* **Como usar:** `git commit -m "feat: adiciona tela de login"`
+* **Analogia:** É tirar uma "fotografia" do estado atual do seu código e colar uma etiqueta explicando o que mudou na foto.
+
+---
+
+## 4. Sincronizando com a Nuvem
+
+### `git push`
+* **O que faz:** Envia os seus commits locais (salvos na sua máquina) para o repositório remoto (GitHub).
+* **Como usar:** `git push origin <nome-da-branch>`
+* **Analogia:** É fazer o upload dos seus arquivos locais para o Google Drive para que o resto da equipe possa ver.
+
+### `git pull`
+* **O que faz:** Baixa e atualiza o seu código local com as novidades que outras pessoas enviaram para o repositório remoto.
+* **Como usar:** `git pull`
+* **Analogia:** É baixar as atualizações que o seu colega de equipe salvou na nuvem para garantir que você está com a versão mais recente.
+
+---
+
+## 5. Trabalhando em Paralelo
+
+### `git branch`
+* **O que faz:** Cria, lista ou deleta ramificações (branches) do código. Permite trabalhar em novas funcionalidades sem estragar o código principal.
+* **Como usar:** 
+  * Listar branches: `git branch`
+  * Criar branch: `git branch nova-feature`
+* **Analogia:** É criar uma cópia temporária de um documento para testar ideias malucas sem rasurar o original.
+
+---
+
+## 📊 Tabela Resumo
+
+| Comando | Função Principal | Exemplo de Uso |
+| :--- | :--- | :--- |
+| `git init` | Inicializa um repositório novo | `git init` |
+| `git clone` | Baixa um projeto remoto | `git clone [url]` |
+| `git status` | Verifica o estado dos arquivos | `git status` |
+| `git add .` | Prepara arquivos para o commit | `git add .` |
+| `git commit -m` | Salva alterações com mensagem | `git commit -m "corrige bug"` |
+| `git push` | Envia alterações para a nuvem | `git push origin main` |
+| `git pull` | Atualiza o código local com a nuvem | `git pull` |
+| `git branch` | Gerencia ramificações do código | `git branch minha-branch` |
